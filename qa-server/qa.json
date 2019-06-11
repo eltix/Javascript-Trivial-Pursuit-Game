@@ -296,7 +296,7 @@
         "question": "Among those 4 affirmations, which one is correct?",
         "correct_answer": "The first reported case of cyber hacking was in 1834",
         "incorrect_answers": [
-          "", "", ""
+          "The virus Stuxnet is believed to have been responsible for causing substantial damage to North Korea's nuclear program", "", ""
         ]
       }
     ]
@@ -311,7 +311,7 @@
         "question": "Among those 4 affirmations, which one is correct?",
         "correct_answer": "In 2004, Bill Gates received 4 millions emails a day",
         "incorrect_answers": [
-          "", "", ""
+          "Steve Jobs met his biological sister at the age of 17", "Mark Zuckerberg's net worth has reached approx. 32 billion USD in 2019", "Elon Musk dropped out of Stanford after just two months"
         ]
       }
     ]
@@ -326,7 +326,7 @@
         "question": "Among those 4 affirmations, which one is correct?",
         "correct_answer": "5-10% of the internet traffic use lava lamps to generate randomness",
         "incorrect_answers": [
-          "", "", ""
+          "Back in the early years of the Internet, people had to brush a lamp to activate the network", "There are approximately 2 billion cat videos on Youtube (2016)", "You cannot access the internet near a volcano eruption because of the elevated magnetic fields"
         ]
       }
     ]
@@ -341,7 +341,7 @@
         "question": "Among those 4 affirmations, which one is correct?",
         "correct_answer": "one Google search consumes the equivalent of 17 Apollo missions in terms of CPU",
         "incorrect_answers": [
-          "data centres worlwide use as much energy in a year as country like France can produce (2018)", "", ""
+          "data centres worlwide use as much energy in a year as a country like France can produce (2018)", "Google receives approx. 20,000 searches per second", "Google receives approx. 1 trillion searches per year"
         ]
       }
     ]
