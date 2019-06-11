@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 from http.server import BaseHTTPRequestHandler, HTTPServer
 import json
+from random import choice
 
 PORT_NUMBER = 8081
 
@@ -20,25 +21,20 @@ class MyHandler(BaseHTTPRequestHandler):
             "Access-Control-Allow-Headers", "X-Requested-With, Content-type"
         )
 
+    qas = json.load(open("qa.json"))
+    num_questions = len(qas)
+    remaining_questions = list(range(num_questions))
+
     # Handler for the GET requests
     def do_GET(self, *args, **kwargs):
-        # test_response = {
-        #     "response_code": 0,
-        #     "results": [
-        #         {
-        #             "category": "History",
-        #             "type": "multiple",
-        #             "difficulty": "medium",
-        #             "question": "In what year did Kentucky become the 15th state to join the union?",
-        #             "correct_answer": "1792",
-        #             "incorrect_answers": ["1782", "1798", "1788"],
-        #         }
-        #     ],
-        # }
+
         print(args, flush=True)
         print(kwargs, flush=True)
-        qas = json.load(open("qa.json"))
-        test_response = qas[0]
+        print(f"asked_questions: {self.remaining_questions}", flush=True)
+
+        question_id = choice(self.remaining_questions)
+        test_response = self.qas[question_id]
+        self.remaining_questions.remove(question_id)
         self.send_response(200)
         self.send_header("Content-type", "text/xml")
         self.send_header("Access-Control-Allow-Credentials", "true")
@@ -48,14 +44,7 @@ class MyHandler(BaseHTTPRequestHandler):
             "Access-Control-Allow-Headers", "X-Requested-With, Content-type"
         )
         self.end_headers()
-        # self._set_headers()
         self.wfile.write(json.dumps(test_response).encode())
-        # self.wfile.close()
-        # self.send_response(200)
-        # self.send_header("Content-type", "text/html")
-        # self.end_headers()
-        # # Send the html message
-        # self.wfile.write("Hello World !")
         return
 
 

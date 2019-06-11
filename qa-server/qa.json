@@ -15,5 +15,22 @@
         ]
       }
     ]
+  },
+  {
+    "response_code": 0,
+    "results": [
+      {
+        "category": "haskell",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "What is the last name of mathematician and logician Haskell C., co-founder of the eponymous programming language?",
+        "correct_answer": "Curry",
+        "incorrect_answers": [
+          "Cardamome",
+          "Cumin",
+          "Cajun"
+        ]
+      }
+    ]
   }
 ]
