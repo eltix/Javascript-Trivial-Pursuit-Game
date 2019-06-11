@@ -1,19 +1,19 @@
 const Board  = function () {
-  this.entertainmentApis = [14, 10, 11, 12];
+  this.mathApis = [14, 10, 11, 12];
   this.subjects = [
 
-    {category: "history",
+    {category: "haskell",
     apiCode: 23},
-    {category: "geography",
+    {category: "python",
     apiCode: 22},
-    {category: "sports",
+    {category: "web",
     apiCode: 21},
-    {category: "science",
+    {category: "nova-things",
     apiCode: 17},
-    {category: "general-knowledge",
+    {category: "computer",
     apiCode: 9},
-    {category: "entertainment",
-    apiCode: this.entertainmentApis[Math.floor(Math.random() * 4)]},
+    {category: "math",
+    apiCode: this.mathApis[Math.floor(Math.random() * 4)]},
   ];
 
   this.boardSpaces = {

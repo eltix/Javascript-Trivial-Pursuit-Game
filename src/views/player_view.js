@@ -51,7 +51,7 @@ PlayerView.prototype.render = function (playerObj) {
   const pieceInfoDiv = document.createElement('div');
   pieceInfoDiv.classList.add('piece-info-div')
   playerDiv.appendChild(pieceInfoDiv);
-  const fakePie = {'history':true}; // Just for testing.
+  const fakePie = {'haskell':true}; // Just for testing.
   const piece = new PieceView(playerID, pieceInfoDiv, playerPie)
   piece.render();
 

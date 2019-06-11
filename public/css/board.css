@@ -159,51 +159,51 @@ h6{
 }
 
 
-.science {
+.nova-things {
   background-color: green;
 }
 
-.science-key {
+.nova-things-key {
   color: green;
 }
 
-.history {
+.haskell {
   background-color: brown;
 }
 
-.history-key {
+.haskell-key {
   color: brown;
 }
 
-.entertainment {
+.math {
   background-color: yellow;
 }
 
-.entertainment-key {
+.math-key {
   color: yellow;
 }
 
-.general-knowledge {
+.computer {
   background-color: purple;
 }
 
-.general-knowledge-key {
+.computer-key {
   color: purple;
 }
 
-.geography {
+.python {
   background-color: blue;
 }
 
-.geography-key {
+.python-key {
   color: blue;
 }
 
-.sports {
+.web {
   background-color: orange;
 }
 
-.sports-key {
+.web-key {
   color: orange;
 }
 

@@ -10,12 +10,12 @@ PieceView.prototype.render = function () {
   this.parentElement.appendChild(piece);
 
   const categoryClass = {
-    "history": 'brown-pie',
-    "geography": 'blue-pie',
-    "sports": 'orange-pie',
-    "entertainment": 'yellow-pie',
-    "science": 'green-pie',
-    "general-knowledge": 'purple-pie'
+    "haskell": 'brown-pie',
+    "python": 'blue-pie',
+    "web": 'orange-pie',
+    "nova-things": 'yellow-pie',
+    "computer": 'green-pie',
+    "math": 'purple-pie'
   };
   const achievedPies = Object.keys(this.pie);
 

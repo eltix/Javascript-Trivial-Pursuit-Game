@@ -18,16 +18,16 @@ describe('Player', function () {
   })
   it('should get correct category', () => {
     const actual = player.getCategoryObject().category;
-    assert.strictEqual(actual, 'history');
+    assert.strictEqual(actual, 'haskell');
   })
   it('should get category after a move', () => {
     player.move(3)
     const actual = player.getCategoryObject().category;
-    assert.strictEqual(actual, 'science');
+    assert.strictEqual(actual, 'nova-things');
   })
   it('should get pie piece', () => {
-    player.getPie('science')
-    const expected = {'science': true};
+    player.getPie('nova-things')
+    const expected = {'nova-things': true};
     const actual = player.pie;
     assert.deepStrictEqual(actual, expected);
   })
@@ -35,10 +35,10 @@ describe('Player', function () {
     assert.strictEqual(player.checkWin(), false);
   })
   it('should know when player has won', () => {
-    player.getPie('history');
-    player.getPie('science');
-    player.getPie('geography');
-    player.getPie('sports');
+    player.getPie('haskell');
+    player.getPie('nova-things');
+    player.getPie('python');
+    player.getPie('web');
     assert.strictEqual(player.checkWin(), true);
   })
 });

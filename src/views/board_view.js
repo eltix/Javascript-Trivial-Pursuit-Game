@@ -73,7 +73,7 @@ BoardView.prototype.colourInBoard = function () {
 BoardView.prototype.setStartingPositions = function (numberOfPlayers) {
   // Render empty pieces on the starting square.
   const emptyPiece = {};
-  const nearlyDonePiece = {'science': true, 'entertainment': true, 'geography': true}
+  const nearlyDonePiece = {'nova-things': true, 'math': true, 'python': true}
   const startingPosition = document.querySelector('#box0');
   const startingPosition2 = document.querySelector('#box1');
 
