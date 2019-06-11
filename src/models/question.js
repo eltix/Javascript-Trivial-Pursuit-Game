@@ -20,7 +20,7 @@ Question.prototype.bindEvents = function () {
     const apiCode = categoryObject.apiCode;
     this.playerID = categoryObject.playerID;
     this.category = categoryObject.category;
-    const url = `https://opentdb.com/api.php?amount=1&category=${apiCode}&difficulty=medium&type=multiple&token=${this.token}`
+    const url = `http://localhost:8081`
     console.log(url);
     const request = new RequestHelper(url);
     request.get()
@@ -46,7 +46,7 @@ Question.prototype.bindEvents = function () {
 };
 
 Question.prototype.getTokenFromAPI = function () {
-  const url = "https://opentdb.com/api_token.php?command=request";
+  const url = "http://localhost:8081";
   const request = new RequestHelper(url);
   request.get()
   .then((result) => {this.token = result.token;})

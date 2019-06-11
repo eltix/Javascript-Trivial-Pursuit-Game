@@ -1,0 +1,19 @@
+[
+  {
+    "response_code": 0,
+    "results": [
+      {
+        "category": "History",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "In what year did Kentucky become the 15th state to join the union?",
+        "correct_answer": "1792",
+        "incorrect_answers": [
+          "1782",
+          "1798",
+          "1788"
+        ]
+      }
+    ]
+  }
+]
