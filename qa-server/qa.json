@@ -3,15 +3,15 @@
     "response_code": 0,
     "results": [
       {
-        "category": "History",
+        "category": "nova-things",
         "type": "multiple",
         "difficulty": "medium",
-        "question": "In what year did Kentucky become the 15th state to join the union?",
-        "correct_answer": "1792",
+        "question": "I change the sha of the commit of Jinko in the shell.nix of my project, next I should",
+        "correct_answer": "Leave and re-enter the nix shell",
         "incorrect_answers": [
-          "1782",
-          "1798",
-          "1788"
+          "Do nothing, and magic is supposed to happen",
+          "Restart my machine",
+          "Open an issue on Gitlab", "Commit and push all my local changes"
         ]
       }
     ]
@@ -29,6 +29,1054 @@
           "Cardamome",
           "Cumin",
           "Cajun"
+        ]
+      }
+    ]
+  },
+  {
+    "response_code": 0,
+    "results": [
+      {
+        "category": "computer",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "What is Answer B ?",
+        "correct_answer": "Answer C",
+        "incorrect_answers": [
+          "Answer B",
+          "Answer A",
+          "Answer D"
+        ]
+      }
+    ]
+  },
+  {
+    "response_code": 0,
+    "results": [
+      {
+        "category": "haskell",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "What does “pure function” mean in the context of a programming language?",
+        "correct_answer": "a function that has no side effect",
+        "incorrect_answers": [
+          "a function that performs an action with minimal code",
+          "a function that cannot fail", "a function that is aesthetically designed"
+        ]
+      }
+    ]
+  },
+  {
+    "response_code": 0,
+    "results": [
+      {
+        "category": "haskell",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Guido von Rossum is the creator of the programming language Python. But why did he choose this name?",
+        "correct_answer": "It is a tribute to the British Comedy Group Monty Python",
+        "incorrect_answers": [
+          "He is a huge fan of reptiles and even has a pet snake",
+          "He loved the Jungle Book when he was a kid, and his favorite character was Mowgli’s python friend Kaa",
+          "It is a reference to the Colt Python, a .357 Magnum caliber revolver. It is supposed to represent Python killing all other competing programming languages",
+          "Guido von Rossum did not invent Python, he is a Star Wars character"
+        ]
+      }
+    ]
+  },
+  {
+    "response_code": 0,
+    "results": [
+      {
+        "category": "haskell",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "What is the proportion of monthly active repositories using Haskell on GitHub?",
+        "correct_answer": "between 0.2% and 0.5%",
+        "incorrect_answers": [
+          "between 0 and 0.2%",
+          "between 0.5% and 1%",
+          "between 1% and 2%"
+        ]
+      }
+    ]
+  },
+  {
+    "response_code": 0,
+    "results": [
+      {
+        "category": "haskell",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "According to Stack Overflow 2019 survey, what is the most dreaded computer language?",
+        "correct_answer": "VBA",
+        "incorrect_answers": [
+          "Python",
+          "Haskell",
+          "C",
+          "Assembly"
+        ]
+      }
+    ]
+  },
+  {
+    "response_code": 0,
+    "results": [
+      {
+        "category": "haskell",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "According to Stack Overflow 2019 survey, what is the proportion of female developers in France?",
+        "correct_answer": "5-8%",
+        "incorrect_answers": [
+          "2-5%",
+          "8-11%", "11-14%"
+        ]
+      }
+    ]
+  },
+  {
+    "response_code": 0,
+    "results": [
+      {
+        "category": "haskell",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "According to Stack Overflow 2019 survey, in what category do we encounter the most (in proportion) female developers?",
+        "correct_answer": "Front-End",
+        "incorrect_answers": [
+          "SysAdmin",
+          "Video Games", "Back-End"
+        ]
+      }
+    ]
+  },
+  {
+    "response_code": 0,
+    "results": [
+      {
+        "category": "haskell",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Could you name at least one woman who played an important role in the history of informatics",
+        "correct_answer": "yes",
+        "incorrect_answers": [
+          "no (shame)"
+        ]
+      }
+    ]
+  },
+  {
+    "response_code": 0,
+    "results": [
+      {
+        "category": "haskell",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "According to the StackOverflow developer survey, what is the percentage of developers that evaluate their own competence as above average",
+        "correct_answer": "67%",
+        "incorrect_answers": [
+          "52%", "35%", "60"
+        ]
+      }
+    ]
+  },
+  {
+    "response_code": 0,
+    "results": [
+      {
+        "category": "haskell",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Which book prefigures the concept of a global information system connecting homes together?",
+        "correct_answer": "A logic named Joe",
+        "incorrect_answers": [
+          "A web named Bob", "A network named Tom", "A medium named Chris"
+        ]
+      }
+    ]
+  },
+  {
+    "response_code": 0,
+    "results": [
+      {
+        "category": "haskell",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "What does \"Agile\" software development refer to?",
+        "correct_answer": "they know",
+        "incorrect_answers": [
+          "they don't know"
+        ]
+      }
+    ]
+  },
+  {
+    "response_code": 0,
+    "results": [
+      {
+        "category": "haskell",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Who has been tagged the most times on RocketChat's #pure channel?",
+        "correct_answer": "Eliott",
+        "incorrect_answers": [
+          "Roman", "Theophane", "Yves"
+        ]
+      }
+    ]
+  },
+  {
+    "response_code": 0,
+    "results": [
+      {
+        "category": "haskell",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Who is the inventor of the Internet?",
+        "correct_answer": "Vint Cerf",
+        "incorrect_answers": [
+          "Steve Jobs", "Bill Gates", "Tim Berners Lee", "Duke Lebowski"
+        ]
+      }
+    ]
+  },
+  {
+    "response_code": 0,
+    "results": [
+      {
+        "category": "haskell",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "According to famous Fred’s tshirt, how do you solve \"Ax=b\" in Matlab?",
+        "correct_answer": "x = A\\b;",
+        "incorrect_answers": [
+          "\\lambda -> pinv A b", "bazel run lin_solver --var mat=A -- var rhs=b", "solve(mat=A,rhs=b)", "x=inv(A)*b"
+        ]
+      }
+    ]
+  },
+  {
+    "response_code": 0,
+    "results": [
+      {
+        "category": "haskell",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "In the Jinko project, what is Python used for ?",
+        "correct_answer": "they know",
+        "incorrect_answers": [
+          "they don't know"
+        ]
+      }
+    ]
+  },
+  {
+    "response_code": 0,
+    "results": [
+      {
+        "category": "haskell",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "How many projects do we host on Nova's GitLab?",
+        "correct_answer": "395",
+        "incorrect_answers": [
+          "213", "562", "98"
+        ]
+      }
+    ]
+  },
+  {
+    "response_code": 0,
+    "results": [
+      {
+        "category": "haskell",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Among those 4 affirmations, which one is correct?",
+        "correct_answer": "The first reported case of cyber hacking was in 1834",
+        "incorrect_answers": [
+          "", "", ""
+        ]
+      }
+    ]
+  },
+  {
+    "response_code": 0,
+    "results": [
+      {
+        "category": "haskell",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Among those 4 affirmations, which one is correct?",
+        "correct_answer": "In 2004, Bill Gates received 4 millions emails a day",
+        "incorrect_answers": [
+          "", "", ""
+        ]
+      }
+    ]
+  },
+  {
+    "response_code": 0,
+    "results": [
+      {
+        "category": "haskell",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Among those 4 affirmations, which one is correct?",
+        "correct_answer": "5-10% of the internet traffic use lava lamps to generate randomness",
+        "incorrect_answers": [
+          "", "", ""
+        ]
+      }
+    ]
+  },
+  {
+    "response_code": 0,
+    "results": [
+      {
+        "category": "haskell",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Among those 4 affirmations, which one is correct?",
+        "correct_answer": "one Google search consumes the equivalent of 17 Apollo missions in terms of CPU",
+        "incorrect_answers": [
+          "data centres worlwide use as much energy in a year as country like France can produce (2018)", "", ""
+        ]
+      }
+    ]
+  },
+  {
+    "response_code": 0,
+    "results": [
+      {
+        "category": "haskell",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "?",
+        "correct_answer": "",
+        "incorrect_answers": [
+          "", "", ""
+        ]
+      }
+    ]
+  },
+  {
+    "response_code": 0,
+    "results": [
+      {
+        "category": "haskell",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "?",
+        "correct_answer": "",
+        "incorrect_answers": [
+          "", "", ""
+        ]
+      }
+    ]
+  },
+  {
+    "response_code": 0,
+    "results": [
+      {
+        "category": "haskell",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "?",
+        "correct_answer": "",
+        "incorrect_answers": [
+          "", "", ""
+        ]
+      }
+    ]
+  },
+  {
+    "response_code": 0,
+    "results": [
+      {
+        "category": "haskell",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "?",
+        "correct_answer": "",
+        "incorrect_answers": [
+          "", "", ""
+        ]
+      }
+    ]
+  },
+  {
+    "response_code": 0,
+    "results": [
+      {
+        "category": "haskell",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "?",
+        "correct_answer": "",
+        "incorrect_answers": [
+          "", "", ""
+        ]
+      }
+    ]
+  },
+  {
+    "response_code": 0,
+    "results": [
+      {
+        "category": "haskell",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "?",
+        "correct_answer": "",
+        "incorrect_answers": [
+          "", "", ""
+        ]
+      }
+    ]
+  },
+  {
+    "response_code": 0,
+    "results": [
+      {
+        "category": "haskell",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "?",
+        "correct_answer": "",
+        "incorrect_answers": [
+          "", "", ""
+        ]
+      }
+    ]
+  },
+  {
+    "response_code": 0,
+    "results": [
+      {
+        "category": "haskell",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "?",
+        "correct_answer": "",
+        "incorrect_answers": [
+          "", "", ""
+        ]
+      }
+    ]
+  },
+  {
+    "response_code": 0,
+    "results": [
+      {
+        "category": "haskell",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "?",
+        "correct_answer": "",
+        "incorrect_answers": [
+          "", "", ""
+        ]
+      }
+    ]
+  },
+  {
+    "response_code": 0,
+    "results": [
+      {
+        "category": "haskell",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "?",
+        "correct_answer": "",
+        "incorrect_answers": [
+          "", "", ""
+        ]
+      }
+    ]
+  },
+  {
+    "response_code": 0,
+    "results": [
+      {
+        "category": "haskell",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "?",
+        "correct_answer": "",
+        "incorrect_answers": [
+          "", "", ""
+        ]
+      }
+    ]
+  },
+  {
+    "response_code": 0,
+    "results": [
+      {
+        "category": "haskell",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "?",
+        "correct_answer": "",
+        "incorrect_answers": [
+          "", "", ""
+        ]
+      }
+    ]
+  },
+  {
+    "response_code": 0,
+    "results": [
+      {
+        "category": "haskell",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "?",
+        "correct_answer": "",
+        "incorrect_answers": [
+          "", "", ""
+        ]
+      }
+    ]
+  },
+  {
+    "response_code": 0,
+    "results": [
+      {
+        "category": "haskell",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "?",
+        "correct_answer": "",
+        "incorrect_answers": [
+          "", "", ""
+        ]
+      }
+    ]
+  },
+  {
+    "response_code": 0,
+    "results": [
+      {
+        "category": "haskell",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "?",
+        "correct_answer": "",
+        "incorrect_answers": [
+          "", "", ""
+        ]
+      }
+    ]
+  },
+  {
+    "response_code": 0,
+    "results": [
+      {
+        "category": "haskell",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "?",
+        "correct_answer": "",
+        "incorrect_answers": [
+          "", "", ""
+        ]
+      }
+    ]
+  },
+  {
+    "response_code": 0,
+    "results": [
+      {
+        "category": "haskell",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "?",
+        "correct_answer": "",
+        "incorrect_answers": [
+          "", "", ""
+        ]
+      }
+    ]
+  },
+  {
+    "response_code": 0,
+    "results": [
+      {
+        "category": "haskell",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "?",
+        "correct_answer": "",
+        "incorrect_answers": [
+          "", "", ""
+        ]
+      }
+    ]
+  },
+  {
+    "response_code": 0,
+    "results": [
+      {
+        "category": "haskell",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "?",
+        "correct_answer": "",
+        "incorrect_answers": [
+          "", "", ""
+        ]
+      }
+    ]
+  },
+  {
+    "response_code": 0,
+    "results": [
+      {
+        "category": "haskell",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "?",
+        "correct_answer": "",
+        "incorrect_answers": [
+          "", "", ""
+        ]
+      }
+    ]
+  },
+  {
+    "response_code": 0,
+    "results": [
+      {
+        "category": "haskell",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "?",
+        "correct_answer": "",
+        "incorrect_answers": [
+          "", "", ""
+        ]
+      }
+    ]
+  },
+  {
+    "response_code": 0,
+    "results": [
+      {
+        "category": "haskell",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "?",
+        "correct_answer": "",
+        "incorrect_answers": [
+          "", "", ""
+        ]
+      }
+    ]
+  },
+  {
+    "response_code": 0,
+    "results": [
+      {
+        "category": "haskell",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "?",
+        "correct_answer": "",
+        "incorrect_answers": [
+          "", "", ""
+        ]
+      }
+    ]
+  },
+  {
+    "response_code": 0,
+    "results": [
+      {
+        "category": "haskell",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "?",
+        "correct_answer": "",
+        "incorrect_answers": [
+          "", "", ""
+        ]
+      }
+    ]
+  },
+  {
+    "response_code": 0,
+    "results": [
+      {
+        "category": "haskell",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "?",
+        "correct_answer": "",
+        "incorrect_answers": [
+          "", "", ""
+        ]
+      }
+    ]
+  },
+  {
+    "response_code": 0,
+    "results": [
+      {
+        "category": "haskell",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "?",
+        "correct_answer": "",
+        "incorrect_answers": [
+          "", "", ""
+        ]
+      }
+    ]
+  },
+  {
+    "response_code": 0,
+    "results": [
+      {
+        "category": "haskell",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "?",
+        "correct_answer": "",
+        "incorrect_answers": [
+          "", "", ""
+        ]
+      }
+    ]
+  },
+  {
+    "response_code": 0,
+    "results": [
+      {
+        "category": "haskell",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "?",
+        "correct_answer": "",
+        "incorrect_answers": [
+          "", "", ""
+        ]
+      }
+    ]
+  },
+  {
+    "response_code": 0,
+    "results": [
+      {
+        "category": "haskell",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "?",
+        "correct_answer": "",
+        "incorrect_answers": [
+          "", "", ""
+        ]
+      }
+    ]
+  },
+  {
+    "response_code": 0,
+    "results": [
+      {
+        "category": "haskell",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "?",
+        "correct_answer": "",
+        "incorrect_answers": [
+          "", "", ""
+        ]
+      }
+    ]
+  },
+  {
+    "response_code": 0,
+    "results": [
+      {
+        "category": "haskell",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "?",
+        "correct_answer": "",
+        "incorrect_answers": [
+          "", "", ""
+        ]
+      }
+    ]
+  },
+  {
+    "response_code": 0,
+    "results": [
+      {
+        "category": "haskell",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "?",
+        "correct_answer": "",
+        "incorrect_answers": [
+          "", "", ""
+        ]
+      }
+    ]
+  },
+  {
+    "response_code": 0,
+    "results": [
+      {
+        "category": "haskell",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "?",
+        "correct_answer": "",
+        "incorrect_answers": [
+          "", "", ""
+        ]
+      }
+    ]
+  },
+  {
+    "response_code": 0,
+    "results": [
+      {
+        "category": "haskell",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "?",
+        "correct_answer": "",
+        "incorrect_answers": [
+          "", "", ""
+        ]
+      }
+    ]
+  },
+  {
+    "response_code": 0,
+    "results": [
+      {
+        "category": "haskell",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "?",
+        "correct_answer": "",
+        "incorrect_answers": [
+          "", "", ""
+        ]
+      }
+    ]
+  },
+  {
+    "response_code": 0,
+    "results": [
+      {
+        "category": "haskell",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "?",
+        "correct_answer": "",
+        "incorrect_answers": [
+          "", "", ""
+        ]
+      }
+    ]
+  },
+  {
+    "response_code": 0,
+    "results": [
+      {
+        "category": "haskell",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "?",
+        "correct_answer": "",
+        "incorrect_answers": [
+          "", "", ""
+        ]
+      }
+    ]
+  },
+  {
+    "response_code": 0,
+    "results": [
+      {
+        "category": "haskell",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "?",
+        "correct_answer": "",
+        "incorrect_answers": [
+          "", "", ""
+        ]
+      }
+    ]
+  },
+  {
+    "response_code": 0,
+    "results": [
+      {
+        "category": "haskell",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "?",
+        "correct_answer": "",
+        "incorrect_answers": [
+          "", "", ""
+        ]
+      }
+    ]
+  },
+  {
+    "response_code": 0,
+    "results": [
+      {
+        "category": "haskell",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "?",
+        "correct_answer": "",
+        "incorrect_answers": [
+          "", "", ""
+        ]
+      }
+    ]
+  },
+  {
+    "response_code": 0,
+    "results": [
+      {
+        "category": "haskell",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "?",
+        "correct_answer": "",
+        "incorrect_answers": [
+          "", "", ""
+        ]
+      }
+    ]
+  },
+  {
+    "response_code": 0,
+    "results": [
+      {
+        "category": "haskell",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "?",
+        "correct_answer": "",
+        "incorrect_answers": [
+          "", "", ""
+        ]
+      }
+    ]
+  },
+  {
+    "response_code": 0,
+    "results": [
+      {
+        "category": "haskell",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "?",
+        "correct_answer": "",
+        "incorrect_answers": [
+          "", "", ""
+        ]
+      }
+    ]
+  },
+  {
+    "response_code": 0,
+    "results": [
+      {
+        "category": "haskell",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "?",
+        "correct_answer": "",
+        "incorrect_answers": [
+          "", "", ""
+        ]
+      }
+    ]
+  },
+  {
+    "response_code": 0,
+    "results": [
+      {
+        "category": "haskell",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "?",
+        "correct_answer": "",
+        "incorrect_answers": [
+          "", "", ""
+        ]
+      }
+    ]
+  },
+  {
+    "response_code": 0,
+    "results": [
+      {
+        "category": "haskell",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "?",
+        "correct_answer": "",
+        "incorrect_answers": [
+          "", "", ""
+        ]
+      }
+    ]
+  },
+  {
+    "response_code": 0,
+    "results": [
+      {
+        "category": "haskell",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "?",
+        "correct_answer": "",
+        "incorrect_answers": [
+          "", "", ""
+        ]
+      }
+    ]
+  },
+  {
+    "response_code": 0,
+    "results": [
+      {
+        "category": "haskell",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "?",
+        "correct_answer": "",
+        "incorrect_answers": [
+          "", "", ""
+        ]
+      }
+    ]
+  },
+  {
+    "response_code": 0,
+    "results": [
+      {
+        "category": "haskell",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "?",
+        "correct_answer": "",
+        "incorrect_answers": [
+          "", "", ""
         ]
       }
     ]
